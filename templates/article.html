@@ -23,10 +23,10 @@
 
 {% block content %}
 	<article class="full">
-
-                {% include 'metadata.inc.html' %}
 		
 		<h1>{{ article.title }}</h1>
+		
+		{% include 'metadata.inc.html' %}
 		
 		{{ article.content }}	
 
