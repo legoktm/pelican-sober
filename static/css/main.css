@@ -89,7 +89,7 @@ header a.title {
 header .feeds {
   float: right;
   text-align: right;
-  width: 25%;
+  /*width: 25%;*/
   line-height: 40px;
 }
 
@@ -252,6 +252,7 @@ ol.archive li .tags
   margin-right: 3px;
   padding-top: 4px;
 }
+
 .social a[href*='twitter.com'] + i:before {content: url('../images/icons/twitter-18px.png'); }
 .social a[href*='linkedin.com'] + i:before {content: url('../images/icons/linkedin-18px.png'); }
 .social a[href*='github.com'] + i:before {content: url('../images/icons/github-18px.png'); }
@@ -325,3 +326,49 @@ li.tag-4 { font-size: 110%; margin: 0 1em; }
   }
 }
 
+/* Journo! */
+.journo-indent p {
+  text-indent: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#journo-chart {
+  float: right;
+  padding: 0 0 0 15px;
+}
+
+#journo-kap {
+  float: left;
+  padding: 15px;
+}
+
+#journo-kap figcaption {
+  color: #666;
+}
+
+#journo-kap figcaption a {
+  font-size: 80%;
+  color: #999;
+}
+
+.journo-form {
+  float: right;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 15px;
+  width: 200px;
+}
+
+hr.journo-hr {
+  margin: 7.6px 0px 7.6px 0px;
+}
+
+#results {
+  width: 150px;
+}
+
+h1.single-page, address.single-page {
+  margin-bottom: 0;
+}
