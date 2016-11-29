@@ -24,11 +24,12 @@
 {% block content %}
 	<article class="full">
 		
-		<h1>{{ article.title }}</h1>
-		
+		<h1 class="single-page">{{ article.title }}</h1>
+		<address class="vcard author single-page">By <a rel="author" class="url fn" href="https://legoktm.com">Kunal Mehta</a></address>
+
 		{% include 'metadata.inc.html' %}
 		
-		{{ article.content }}	
+		{{ article.content }}
 
 	</article>
 
